@@ -33,7 +33,7 @@ view: products {
     sql: ${TABLE}.rank ;;
   }
 
-  dimension: retail_price {
+  measure: retail_price {
     type: number
     sql: ${TABLE}.retail_price ;;
   }
