@@ -44,7 +44,7 @@ view: order_items {
     sql: ${TABLE}.returned_at ;;
   }
 
-  dimension: sale_price {
+  measure: sale_price {
     type: number
     sql: ${TABLE}.sale_price ;;
   }
