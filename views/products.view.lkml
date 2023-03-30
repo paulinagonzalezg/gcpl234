@@ -43,6 +43,11 @@ view: products {
     sql: ${TABLE}.retail_price ;;
   }
 
+  measure: average_measure_retail_price {
+    type: average
+    sql: ${TABLE}.retail_price ;;
+  }
+
   dimension: sku {
     type: string
     sql: ${TABLE}.sku ;;
